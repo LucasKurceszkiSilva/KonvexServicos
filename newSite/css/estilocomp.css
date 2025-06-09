@@ -199,6 +199,13 @@ body {
     position: relative;
     z-index: 1;
   }
+
+  #hero-1619 .cs-item:hover{
+    transform: translateY(-6px) scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+      transition: transform 0.3s ease-in-out; /* Duração e tipo de transição */
+  }
+  
   #hero-1619 .cs-icon {
     width: 3rem;
     height: auto;
