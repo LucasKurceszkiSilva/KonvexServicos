@@ -201,10 +201,15 @@ body {
   }
 
   #hero-1619 .cs-item:hover{
-    transform: translateY(-6px) scale(1.05);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+      transform: translateY(-6px) scale(1.05);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
       transition: transform 0.3s ease-in-out; /* Duração e tipo de transição */
-  }
+      cursor: pointer;
+     
+      
+    }
+
+  
   
   #hero-1619 .cs-icon {
     width: 3rem;
@@ -213,11 +218,7 @@ body {
   }
 
 
-  #hero-1619 .cs-icon:hover {
-     transform: translateY(-6px) scale(1.05);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
-      transition: transform 0.3s ease-in-out; /* Duração e tipo de transição */
-  }
+ 
   #hero-1619 .cs-h3 {
     /* 20px - 25px */
     font-size: clamp(1.25rem, 2.5vw, 1.5625rem);
