@@ -205,8 +205,13 @@ body {
       box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
       transition: transform 0.3s ease-in-out; /* Duração e tipo de transição */
       cursor: pointer;
-     
-      
+
+      h3{
+        transition: ease 0.4s;
+        color: #F2441D;
+      }
+
+
     }
 
   
