@@ -226,7 +226,7 @@ body {
 /* Desktop - 1300px (To make image background parallax) */
 @media only screen and (min-width: 81.25rem) {
     #hero-143 {
-        background: url("");    /*ESSA LINHA AQUI TEM QUE SER DIFERENTE PARA CADA PAGINA */
+        background: url("imgs/servicos/prototipagem.png");    /*ESSA LINHA AQUI TEM QUE SER DIFERENTE PARA CADA PAGINA */
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -291,6 +291,19 @@ body {
         justify-content: center;
         align-items: center;
     }
+
+   a.cs-button-solid{
+     color: white;   
+    }
+
+    #h-services-143 .cs-icon:hover{
+          transform: translateY(-6px) scale(1.05);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+      transition: transform 0.3s ease-in-out; /* Duração e tipo de transição */
+      background-color: #9bd8f7;
+    }
+
+
     #h-services-143 .cs-icon img {
         /* 44px - 52px */
         width: clamp(2.75rem, 5.8vw, 3.25rem);
