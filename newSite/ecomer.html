@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/global_temas.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/marketplace.css">
+    <title>Desenvolvimento de Marketplace</title>
+</head>
+<body>
+<!-- ============================================ -->
+<!--                 Navigation                   -->
+<!-- ============================================ -->
+
+<header id="cs-navigation">
+    <div class="cs-container">
+        <!--Nav Logo-->
+        <!--Logo is turned white in the css with a filter on dark mode-->
+        <a href="" class="cs-logo" aria-label="back to home">
+            <img src="imgs/Horizontal-Original.png" alt="logo"aria-hidden="true" decoding="async">
+        </a>
+        <!--Navigation List-->
+        <nav class="cs-nav" role="navigation">
+            <!--Mobile Nav Toggle-->
+            <button class="cs-toggle" aria-label="mobile menu toggle">
+                <div class="cs-box" aria-hidden="true">
+                    <span class="cs-line cs-line1" aria-hidden="true"></span>
+                    <span class="cs-line cs-line2" aria-hidden="true"></span>
+                    <span class="cs-line cs-line3" aria-hidden="true"></span>
+                </div>
+            </button>
+            <!-- We need a wrapper div so we can set a fixed height on the cs-ul in case the nav list gets too long from too many dropdowns being opened and needs to have an overflow scroll. This wrapper acts as the background so it can go the full height of the screen and not cut off any overflowing nav items while the cs-ul stops short of the bottom of the screen, which keeps all nav items in view no matter how mnay there are-->
+            <div class="cs-ul-wrapper">
+                <ul id="cs-expanded" class="cs-ul" aria-expanded="false">
+                    <li class="cs-li">
+                        <a href="index.html" class="cs-li-link cs-active">
+                            Início
+                        </a>
+                    </li>
+                    <li class="cs-li">
+                        <a href="sobre-nos.html" class="cs-li-link">
+                            Sobre Nós
+                        </a>
+                    </li>
+                    <!--Copy and paste this cs-dropdown list item and replace any .cs-li with this cs-dropdown group to make a new dropdown and it will work-->
+                    <li class="cs-li cs-dropdown" tabindex="0">
+                        <span class="cs-li-link">
+                            Serviços
+                            <img class="cs-drop-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/down-gold.svg" alt="dropdown icon" width="15" height="15" decoding="async" aria-hidden="true">
+                        </span>
+                        <ul class="cs-drop-ul">
+                            <li class="cs-drop-li">
+                                <a href="" class="cs-li-link cs-drop-link">Registration</a>
+                            </li>
+                            <li class="cs-drop-li">
+                                <a href="" class="cs-li-link cs-drop-link">Our Classes</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="cs-li">
+                        <a href="" class="cs-li-link">
+                            Blog
+                        </a>
+                    </li>
+                    <li class="cs-li">
+                        <a href="" class="cs-li-link">
+                            Contato
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="cs-contact-group">
+            <div class="cs-social">
+                <a href="" class="cs-social-link">
+                    <img class="cs-social-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/facebook-1a.svg" alt="logo" width="12" height="12" aria-hidden="true" decoding="async">
+                </a>
+                <a href="" class="cs-social-link">
+                    <img class="cs-social-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/instagram1a.svg" alt="logo" width="12" height="12" aria-hidden="true" decoding="async">
+                </a>
+                <a href="" class="cs-social-link">
+                    <img class="cs-social-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/youtube1a.svg" alt="logo" width="12" height="12" aria-hidden="true" decoding="async">
+                </a>
+            </div>
+        </div>
+
+</header>
+<!-- ============================================ -->
+<!--                    Hero                      -->
+<!-- ============================================ -->
+
+<section id="hero-143">
+    <div class="cs-container">
+        <h1 class="cs-title">Desenvolvimento de Marketplace</h1>
+        
+        <p class="cs-text">
+                        <a href="" class="cs-button-solid">Contate agora mesmo</a>
+        </p>
+        
+    </div>
+
+    <!-- Background Image -->
+    <picture class="cs-background">
+        <source media="(max-width: 600px)" src="imgs/servicos/loja-virtual-ou-mercado-livre-o-que-e-melhor-1160X653.webp"> 
+        <source media="(min-width: 601px)" src="imgs/servicos/loja-virtual-ou-mercado-livre-o-que-e-melhor-1160X653.webp">
+        <img loading="lazy" decoding="async" src="imgs/servicos/loja-virtual-ou-mercado-livre-o-que-e-melhor-1160X653.webp"alt="kitchen" width="2250" height="1500" aria-hidden="true">
+    </picture>
+</section>
+
+<!-- ============================================ -->
+<!--                   Services                   -->
+<!-- ============================================ -->
+
+<section id="h-services-143">
+    <ul class="cs-card-group">
+        <li class="cs-item">
+            <picture class="cs-icon">
+                <img loading="lazy" decoding="async" src="imgs/icones/negocios.png" alt="icon" width="52" height="52" aria-hidden="true">
+            </picture>
+            <h2 class="cs-title">Expansão do negócio</h2>
+            <p class="cs-text">
+                Amplie seus lucros levando seu negócio para o online.
+            </p>
+        </li>
+        <li class="cs-item">
+            <picture class="cs-icon">
+                <img loading="lazy" decoding="async" src="imgs/icones/seguranca.png" alt="icon" width="52" height="52" aria-hidden="thttps://csimg.nyc3.digitaloceanspaces.com/Hero/kitchen-m.jpgrue">
+            </picture>
+            <h2 class="cs-title">Segurança</h2>
+            <p class="cs-text">
+                Garanta segurança nas suas vendas e fidelize seus clientes.
+            </p>
+        </li>
+        <li class="cs-item">
+            <picture class="cs-icon">
+                <img loading="lazy" decoding="async" src="imgs/icones/credibilidade.png" alt="icon" width="52" height="52" aria-hidden="true">
+            </picture>
+            <h2 class="cs-title">Credibilidade</h2>
+            <p class="cs-text">
+       Fortaleça sua imagem com uma loja virtual bem estruturada.</p>
+        </li>
+
+    </ul>
+</section>
+
+
+<script src="js/index.js"></script>
+    <script src="js/global.js"></script>
+                                
+       
+    
